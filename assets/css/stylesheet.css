@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+
+/* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100vw;
+    background-color: rgb(177, 223, 217);
+    color: rgb(201, 33, 89);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mainNav ul li a:hover {
+    color: rgb(155, 0, 52);
+    transition: 0.5s;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li {
+    color: rgb(175, 20, 46);
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    padding: 10px;
+}
+
+.container {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#Bio {
+    padding: 25px;
+    text-align: center;
+    color: rgb(51, 54, 54);
+    background-color: rgba(187, 231, 176, 0.884);
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('../img/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#profilePic {
+    width: 300px;
+    border-radius: 50%;
+    margin: 25px;
+    border: turquoise 10px;
+    transition: 0.5s;
+}
+
+#profilePic:hover {
+    transform: rotate(100deg);
+}
+
+#Bio .container {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+
+}
+.face {
+    color: rgb(27, 90, 141)
+}
+.insta {
+    color: rgb(160, 107, 209)
+}
+#Edad {
+    text-align: center;
+    background-color: rgb(241, 247, 188);
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(155, 0, 52);
+    transform: skew(10deg);
+}
+#Hobbies {
+    text-align: right;
+    background-color: rgb(220, 178, 224);
+    border-radius: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    /* rotacion 3d*/
+    
+    transform: rotate3d(0, 1, 0, 200deg);
+}
+#DatoCurioso {
+    text-align: center;
+    background-color: rgb(224, 191, 178);
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    transform: scale(1.2, 0.7);
+}
+#Skills {
+    text-align: right;
+    background-color: rgb(200, 244, 255);
+    border-radius: 10px;
+    transform: rotate(5, 2);
+}
+#imagen {
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+}
+#imgChange {
+    width: 100vw;
+    height: 100vw;
+    background-image: url('../img/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#button {
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    background-color: rgb(112, 177, 140);
+    color: black;
+}
+#button:hover+#imgchange {
+    background-image: url(../img/perrito.jpg);
+    transition: 0.5s;
+}
